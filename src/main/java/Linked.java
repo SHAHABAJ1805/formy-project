@@ -12,7 +12,7 @@ public class Linked {
      System.setProperty("webdriver.chrome.driver","D:\\Driver\\geckodriver.exe");
         WebDriver driver=new FirefoxDriver();
         driver.get("https://formy-project.herokuapp.com/keypress");
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         WebElement name= driver.findElement(By.id("name"));
         name.click();
         name.sendKeys("shahabaj pathan");
