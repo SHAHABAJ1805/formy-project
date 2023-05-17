@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static java.lang.System.*;
-
+//this is my first project in intelije
 public class Linked {
     public static void main (String args[])
     {
