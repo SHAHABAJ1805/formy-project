@@ -19,9 +19,5 @@ public class Linked {
         WebElement button= driver.findElement(By.id("button"));
         button.click();
         driver.quit();
-
-
     }
-
-
 }
